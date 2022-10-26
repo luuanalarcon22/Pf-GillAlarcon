@@ -173,12 +173,20 @@ table {
     background-repeat: no-repeat;
     background-size: cover; 
     width: 550px;
-    font-size: 20px;
+    font-size: 17px;
+}
+.formulario-fondo h1 {
+    margin-left: 285px;
+   
+    ;
 }
 .formulario-fondo div {
    
     margin-left: 285px;
    
+}
+.formulario-fondo div textarea {
+    margin-left: 285px;
 }
 
 
