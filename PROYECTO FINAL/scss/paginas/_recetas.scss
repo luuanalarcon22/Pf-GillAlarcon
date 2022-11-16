@@ -1,0 +1,42 @@
+
+%color-normal 
+{
+    background-color: (rgb(182, 65, 182)) 
+} 
+%color-masclaro 
+{
+    background-color: (rgb(240, 154, 240))
+}  
+
+@mixin tonalidad ($fondo) {
+    background-color: $fondo ;
+    
+}
+
+.card-body {
+    @include tonalidad(rgb(182, 65, 182)); 
+    
+    h5 {
+        @extend %color-masclaro; 
+    }
+}
+
+.lado {
+    display: flex;
+}
+.card-body2 {
+    @include tonalidad (rgb(240, 154, 240));
+    
+    h5 {
+        @extend %color-normal;
+    }
+   
+} 
+.card.text1 {
+    margin-bottom: 700; 
+    
+}
+.card-tittle {
+    @extend %color-masclaro;
+}
+
